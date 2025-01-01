@@ -77,13 +77,13 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "HANSAMAL-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD v5\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`; 
+                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/HANSAMAL-OFFICIAL/HANSAMAL-MD`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
+thumbnailUrl: "https://i.postimg.cc/52Nk9Bmp/20250101-054707.jpg",
 sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -93,13 +93,13 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD v5\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
+                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/HANSAMAL-OFFICIAL/HANSAMAL-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
+thumbnailUrl: "https://i.postimg.cc/52Nk9Bmp/20250101-054707.jpg",
 sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
 mediaType: 2,
 renderLargerThumbnail: true,
